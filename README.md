@@ -1,36 +1,45 @@
-# hanachi-branding-studio
+# Hanachi - Agency Visual Identity Studio
 
-A modern, fully responsive single-page frontend website built for a premium brand identity agency. Features custom CSS animations, an integrated portfolio landing matrix, and a serverless lead-generation intake system.
+A modern, fully responsive single-page frontend website built for a premium brand identity agency. 
+Developed to showcase smooth visual storytelling, dynamic UI elements, and a serverless lead-generation system.
 
-## 📌 Project Context & Background
+## 📋 Features
 
-This project was originally built to serve as the official platform for **Hanachi**, a brand identity agency that I launched and attempted to run. While the agency operations did not succeed as planned and the business venture is currently inactive, this repository stands as a comprehensive showcase of my frontend engineering, design system implementation, and serverless workflow automation skills.
+- **Dynamic Preloader Screen:** High-end, terminal-fading CSS spinner animation providing optimized UX while page assets parse.
+- **Scroll-Driven Keyframe Animations:** Integrated `show-animate` parameters that trigger custom slide-in movements as users browse different sections.
+- **Fluid Layout & Responsive Nav Matrix:** A sticky header framework paired with mobile viewport menu toggles (`bx-menu` to `bx-x`) for cross-device responsiveness.
+- **Serverless Form Intake System:** Connects client-side user entries safely to email inboxes without hosting standalone server backends.
+- **Newsletter Subscription:** Built-in hooks tracking user signups to build email marketing audiences.
 
-## 🚀 Live Demo
-*(Once deployed to GitHub Pages or Cloudflare Pages, paste your live link here)*
-- **Live Link:** [View Live Website]()
+## 🛠️ Technologies & Project Structure
 
-## ✨ Features
+- **Languages:** HTML5, CSS3, JavaScript (ES6)
+- **Layout Systems Used:** CSS Flexbox, CSS Grid, Custom Variables, Fluid Media Queries
+- **Integrations & APIs:** EmailJS API, MailerLite Universal API, FontAwesome v6, BoxIcons
+- **File Structure:**
+  - `index.html` - Core markup and API loading integrations
+  - `style.css` - Custom design properties and keyframe animations
+  - `script.js` - Dynamic UI transitions and serverless submission handling
+  - `/images` - Folder organizing visual media assets, icons, and logos
 
-- **Dynamic Loading Screen:** An elegant, fading CSS preloader spinner optimizes user experience while page assets finish parsing.
-- **Fluid Animations:** Integrated scroll-triggered animations (`show-animate`) trigger custom keyframe slide-ins for distinct landing zones.
-- **Responsive Navigation Matrix:** A sticky header configuration with a custom mobile layout toggle switch (`bx-menu` to `bx-x`) ensures layout fluidity across all device sizes.
-- **Third-Party Integrations:**
-  - **Newsletter Management:** Connected to **MailerLite Universal API** to track user engagement and capture prospects seamlessly.
-  - **Client Intake Form:** Seamless connection directly to a tailored brand discovery questionnaire using an embedded Google Forms framework.
-  - **Serverless Messaging Core:** Configured alongside client-side **EmailJS API** architectures to dispatch user message entries securely directly to inbound email mailboxes without standalone backend server code.
+## 🌱 Learning Notes
 
-## 🛠️ Tech Stack
+This project helped me to:
+- Deepen my knowledge of vanilla JavaScript DOM manipulation and custom scroll tracking event listeners.
+- Master custom CSS keyframe animations to build engaging user experiences without relying on heavy UI frameworks.
+- Understand how to connect and initialize client-side serverless APIs (`EmailJS` & `MailerLite`) securely.
+- Structure responsive layout rules to guarantee consistency from small mobile devices up to large desktop viewports.
 
-- **Markup:** Semantic HTML5
-- **Styling:** Custom Vanilla CSS3 (Custom Variables, CSS Flexbox/Grid, Responsive Media Queries, Keyframe Animations)
-- **Typography & Icons:** Google Fonts (Poppins), FontAwesome v6, BoxIcons
-- **Automation / Scripting:** Native JavaScript (ES6 DOM Manipulation, Event Listeners)
+## 🔭 Where I Am Now
 
-## 📦 Local Setup Instructions
+This project was originally built to serve as the official platform for **Hanachi**, a brand identity agency that I launched and attempted to run. While the agency operations did not succeed as planned and the business venture is currently inactive, this repository stands as an authentic learning milestone. 
 
-Because this project is built entirely with static web assets, running it locally requires no complex runtime compilation or package installations:
+It tracks my transition from frontend design systems into the core software skills I have today, as I am now focusing heavily on backend logic and desktop application architectures.
 
-1. **Clone the Repository:**
+## 🚀 How to Run / Compile
+
+Because this project is built entirely with clean static web assets, running it locally requires no build servers or installations:
+
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/AbdelGhafourRebbouh/hanachi-branding-studio.git](https://github.com/AbdelGhafourRebbouh/hanachi-branding-studio.git)
