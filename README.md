@@ -40,8 +40,9 @@ It tracks my transition from frontend design systems into the core software skil
 
 Because this project is built entirely with clean static web assets, running it locally requires no build servers or installations:
 
-## see the web 
-https://abdelghafourrebbouh.github.io/hanachi-branding-studio/
+## Live Demo
+
+[Visit Website](https://abdelghafoorrebbouh.github.io/hanachi-branding-studio/)
 
 1. **Clone the repository:**
    ```bash
