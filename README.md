@@ -42,7 +42,7 @@ Because this project is built entirely with clean static web assets, running it 
 
 ## Live Demo
 
-[Visit Website](https://abdelghafoorrebbouh.github.io/hanachi-branding-studio/)
+[Visit Website](https://abdelghafourrebbouh.github.io/hanachi-branding-studio/)
 
 1. **Clone the repository:**
    ```bash
